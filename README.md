@@ -23,3 +23,6 @@ iptables -I INPUT -p tcp -m tcp --dport 8080 -j ACCEPT
 
 Tips about Shell
 ==============
+
+Spam data archive: http://untroubled.org/spam/
+
