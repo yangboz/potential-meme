@@ -7,3 +7,9 @@ This is a tutorial site for Apache Spark Project (https://spark.apache.org/) , p
 
 Tips
 ==============
+
+###1.Port forward on VirtualBox SSH connection,see: http://www.virtualbox.org/manual/ch06.html
+
+###2.Spark WebUI port(8080) ACCEPT by "iptables", please using: 
+
+iptables -I INPUT -p tcp -m tcp --dport 80 -j ACCEPT
