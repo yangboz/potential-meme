@@ -7,7 +7,7 @@ This is a tutorial site for Apache Spark Project (https://spark.apache.org/) , p
 
 ![Screenshot of "RunningSparkOnVBox(CentOS)"](https://raw.githubusercontent.com/yangboz/potential-meme/master/Spark_VBox_CentOS_Running.jpg)
 
-Tips
+Tips about install
 ==============
 
 ###0.1 Scala mirror download link: http://www.lookbackon.com/resources/spark/Scala-2.9.3.tgz
@@ -19,3 +19,10 @@ Tips
 ###2.Spark WebUI port(8080,8081) ACCEPT by "iptables", please using: 
 
 iptables -I INPUT -p tcp -m tcp --dport 8080 -j ACCEPT
+
+
+Tips about Shell
+==============
+
+Spam data : https://archive.ics.uci.edu/ml/machine-learning-databases/spambase/
+
