@@ -1,3 +1,4 @@
+#Estimating PI, @see: http://spark.apache.org/examples.html
 import random
 def sample(f):
     x,y = random.random(),random.random()
